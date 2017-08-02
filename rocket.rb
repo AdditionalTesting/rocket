@@ -57,7 +57,7 @@ class Rocket
     prefixes = ["aries", "taurus", "gemini", "cancer", "leo", "virgo", "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces"]
     suffixes = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"]
 
-    return "#{prefixes.sample.capitalize} #{suffixes.sample.upcase}"
+    return "#{prefixes.sample.capitalize} #{suffixes.sample}"
   end
 
   def random_colour
